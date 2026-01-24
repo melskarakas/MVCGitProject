@@ -18,8 +18,9 @@ namespace MVCGitProject.Controllers
         public IActionResult Index()
         {
             List<lessons> dersler = _context.lessons.ToList();
+           users user = _context.users.FirstOrDefault();
             HttpContext.Session.SetString("lesson_name", dersler[0].lesson_name);
-            return View();
+            return View(user);
         }
 
         public IActionResult Privacy()
