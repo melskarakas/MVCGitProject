@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Giriş Yap";
+    string mesaj = "";
+    if (ViewBag.Mesaj != null)
+    {
+        mesaj = ViewBag.Mesaj;
+    }
+}
+<form action="/Login/Index" method="post">
+   <div class="text-center">
+       <label for="username">Kullanıcı Adı:</label>
+       <input type="text" id="username" name="username" />
+   </div>
+   <div class="text-center">
+       <label for="password">Şifre:</label>
+       <input type="password" id="password" name="password" />
+   </div>
+   <div class="text-center">
+       <button type="submit" class="btn btn-primary">Giriş Yap</button>
+   </div>
+   <label for="message"></label>
+   <div class="text-center">
+       @if (!string.IsNullOrEmpty(mesaj))
+       {
+           <div class="alert alert-danger">@mesaj</div>
+       }
+   </div>
+</form>
