@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCGitProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef318ae2ae251c44abc1d214df89f6d284439feb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46c427051f29900a5ac20d030007ad55d095aedf")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCGitProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCGitProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
