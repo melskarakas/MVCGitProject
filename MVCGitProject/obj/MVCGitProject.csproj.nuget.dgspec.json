@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Melis\\source\\repos\\MVCGitProject\\MVCGitProject\\MVCGitProject.csproj": {}
+    "/Users/melis/Documents/GitHub/MVCGitProject/MVCGitProject/MVCGitProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Melis\\source\\repos\\MVCGitProject\\MVCGitProject\\MVCGitProject.csproj": {
+    "/Users/melis/Documents/GitHub/MVCGitProject/MVCGitProject/MVCGitProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Melis\\source\\repos\\MVCGitProject\\MVCGitProject\\MVCGitProject.csproj",
+        "projectUniqueName": "/Users/melis/Documents/GitHub/MVCGitProject/MVCGitProject/MVCGitProject.csproj",
         "projectName": "MVCGitProject",
-        "projectPath": "C:\\Users\\Melis\\source\\repos\\MVCGitProject\\MVCGitProject\\MVCGitProject.csproj",
-        "packagesPath": "C:\\Users\\Melis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Melis\\source\\repos\\MVCGitProject\\MVCGitProject\\obj\\",
+        "projectPath": "/Users/melis/Documents/GitHub/MVCGitProject/MVCGitProject/MVCGitProject.csproj",
+        "packagesPath": "/Users/melis/.nuget/packages/",
+        "outputPath": "/Users/melis/Documents/GitHub/MVCGitProject/MVCGitProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Melis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/melis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
