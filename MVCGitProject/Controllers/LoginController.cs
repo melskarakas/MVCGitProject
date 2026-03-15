@@ -41,7 +41,7 @@ namespace MVCGitProject.Controllers
                 }
             }else
             {
-                ViewBag.Mesaj = "Lütfen tüm alanları doldurun.";
+                ViewBag.Mesaj = "Lütfen tüm alanları doldurun Boş Bırakılmaz.";
                 return View(model);
             }
         }
