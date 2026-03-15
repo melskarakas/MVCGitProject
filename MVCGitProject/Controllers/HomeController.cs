@@ -20,6 +20,7 @@ namespace MVCGitProject.Controllers
             List<lessons> dersler = _context.lessons.ToList();
            users user = _context.users.FirstOrDefault();
             HttpContext.Session.SetString("lesson_name", dersler[0].lesson_name);
+            HttpContext.Session.SetString("lesson_name", dersler[0].lesson_name);
             return View(user);
         }
 
